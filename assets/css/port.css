@@ -174,7 +174,7 @@ button > a{
     column-gap: 20px;
     row-gap: 20px;
 }
-.dir-1{display: grid;
+.dir-3{display: grid;
     justify-content: end;
     color: gray;
 }
@@ -183,18 +183,18 @@ button > a{
     grid-row: 2;
     color: gray;
 }
-.dir-3{display: grid;
+.dir-1{display: grid;
     justify-content: end; 
     grid-row: 3;
     color: gray;
 }
-.cent-1{display: grid;
+.cent-3{display: grid;
 }
 .cent-2{display: grid;
    
     grid-row: 2;
 }
-.cent-3{display: grid;
+.cent-1{display: grid;
    
     grid-row: 3;
 }
