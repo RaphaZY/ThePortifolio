@@ -126,7 +126,8 @@ button > a{
     color:#fff;
     align-content: center;
     justify-content: center;
-    border: #000 groove 5px;
+    border: #eb930e groove 5px;
+    border-radius: 5px;
 }
 .sd-2{
     display: grid;
@@ -135,6 +136,8 @@ button > a{
     color:#fff;
     align-content: center;
     justify-content: center;
+    border: #af0d0d groove 5px;
+    border-radius: 5px;
 }
 .sd-3{
     display: grid;
@@ -143,6 +146,8 @@ button > a{
     color:#fff;
     align-content: center;
     justify-content: center;
+    border: #1a5acd groove 5px;
+    border-radius: 5px;
 }
 .sect-2 h4{
     font-size: 18px;
