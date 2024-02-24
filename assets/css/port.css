@@ -7,7 +7,7 @@ body{
 }
 header{
         background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url("../img/fundo.jpg");
+        url("../img/noses.jpg");
         background-color: #cccccc;
         height: 100%;
         width: 100%;
@@ -126,6 +126,7 @@ button > a{
     color:#fff;
     align-content: center;
     justify-content: center;
+    border: #000 groove 5px;
 }
 .sd-2{
     display: grid;
@@ -264,11 +265,11 @@ footer h6{
     
     header{
         background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url("https://img.itch.zone/aW1nLzQ1MjUyMzEucG5n/original/eKVpL8.png");
+        url("../img/noses.jpg");
         background-color: #cccccc;
         height: 100%;
         width: 100%;
-        background-position: center;
+        background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative; 
