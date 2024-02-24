@@ -93,6 +93,7 @@ button > a{
    display: grid;
    grid-column: 1/4;
    padding-bottom: 10px;
+   padding-left: 10px;
 
 }
 .sect-2_div1 h2{
@@ -126,7 +127,7 @@ button > a{
     color:#fff;
     align-content: center;
     justify-content: center;
-    border: #eb930e groove 5px;
+    border: #f89602 groove 5px;
     border-radius: 5px;
 }
 .sd-2{
@@ -206,12 +207,12 @@ button > a{
 }
 .sect-4 h2{
     color: white;
-    font-size: 22px;
+    font-size: 24px;
     padding: 20px;
 }
 .sect-4 h3{
     color: gray;
-    font-size: 28px;
+    font-size: 30px;
     padding-top: 10px;
 }
 
@@ -376,14 +377,6 @@ footer h6{
         padding: 0px 30px 0px;
         text-align: justify;
     }
-    
-
-
-
-
-
-
-
 
     .sect-4{
         background: black;
@@ -397,7 +390,7 @@ footer h6{
     }
     .sect-4 h3{
         color: gray;
-        font-size: 14px;
+        font-size: 24px;
     }
 
     footer{
@@ -431,6 +424,42 @@ footer h6{
         position: static;
         grid-row: 2;
         text-align: center;
+    }
+    .img-1{
+        display: grid;
+        align-items: end;
+        grid-column: 2 / 3;
+        grid-row: 2;
+     }
+     .img-2{
+         display: grid;
+         align-items: end;
+         grid-column: 2 / 3;
+         grid-row: 4;
+      }
+      .img-3{
+         display: grid;
+         align-items: end;
+         grid-column: 2 / 3;
+         grid-row: 6;
+      }
+     .sd-1{
+        grid-row: 3;
+        grid-column: 2 / 3;
+     }
+     .sd-2{
+        grid-row: 5;
+        grid-column: 2 / 3;
+     }
+     .sd-3{
+        grid-row: 7;
+        grid-column: 2 / 3;
+     }
+     .sect-2_div2{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        justify-content: space-around;
+        margin-bottom: 5%;
     }
 
 
