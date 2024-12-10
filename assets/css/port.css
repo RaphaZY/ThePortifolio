@@ -468,3 +468,22 @@ footer h6{
 
     
 }
+
+@media (max-width: 600px) {
+    header {
+        height: 50vh; /* Ajuste conforme necessário */
+    }
+
+    .h-div1 img {
+        height: 50px; /* Reduzindo o tamanho da logo */
+        width: 50px;
+    }
+
+    .h-div2 h1 {
+        font-size: 1.5rem; /* Ajustando o tamanho da fonte do título */
+    }
+
+    .h-div3 h4 {
+        font-size: 1rem; /* Ajustando o tamanho da fonte da descrição */
+    }
+}
