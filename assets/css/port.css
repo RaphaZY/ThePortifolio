@@ -470,20 +470,31 @@ footer h6{
 }
 
 @media (max-width: 600px) {
-    header {
-        height: 50vh; /* Ajuste conforme necessário */
+    header{
+        background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("../img/mi2.jpg");
+        background-color: #cccccc;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative; 
+        color: #fff;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto auto;
     }
-
     .h-div1 img {
-        height: 50px; /* Reduzindo o tamanho da logo */
+        height: 50px; 
         width: 50px;
     }
 
     .h-div2 h1 {
-        font-size: 1.5rem; /* Ajustando o tamanho da fonte do título */
+        font-size: 1.5rem; 
     }
 
     .h-div3 h4 {
-        font-size: 1rem; /* Ajustando o tamanho da fonte da descrição */
+        font-size: 1rem; 
     }
 }
